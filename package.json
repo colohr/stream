@@ -4,9 +4,10 @@
     "url": "https://github.com/colohr/stream/issues"
   },
   "dependencies": {
+    "fxy":"^0.1.724",
+    "minimatch": "^3.0.4"
   },
   "description": "Streams for file upload with router middleware + MongoDB storage using GridFS.",
-
   "homepage": "https://github.com/colohr/stream#readme",
   "license": "ISC",
   "main": "package/index.js",
