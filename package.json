@@ -1,0 +1,22 @@
+{
+  "author": "colohr",
+  "bugs": {
+    "url": "https://github.com/colohr/stream/issues"
+  },
+  "dependencies": {
+  },
+  "description": "Streams for file upload with router middleware + MongoDB storage using GridFS.",
+
+  "homepage": "https://github.com/colohr/stream#readme",
+  "license": "ISC",
+  "main": "package/index.js",
+  "name": "@va11y/stream",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colohr/stream.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "0.0.3"
+}

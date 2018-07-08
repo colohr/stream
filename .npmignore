@@ -1,0 +1,8 @@
+.idea
+test
+dev
+node_modules
+npm-debug.log
+nodemon.json
+next
+removed

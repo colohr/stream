@@ -1,0 +1,21 @@
+input DataStreamSetting{
+    #Encoding for text
+    encoding: ID = "utf-8"
+    #Checksums calculated for incoming files
+    hash: EncryptionAlgorithm = sha1
+    #Keep file name extensions
+    keep_extensions: Boolean = false
+    #Maximum number of fields for data
+    max_fields: Int = 1000
+    #20mb max data size
+    max_fields_size: Int = 20971520
+    #20mb max file size
+    max_file_size: Int = 20971520
+    #Location of folder relative to current working directory
+    upload_folder: CurrentWorkingDirectoryLocation = "stream_upload_temporary"
+}
+
+enum EncryptionAlgorithm{
+    md5
+    sha1
+}
